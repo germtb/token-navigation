@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Next token",
+        "command": "token-navigation:nextToken"
+      },
+      {
+        "label": "Previous token",
+        "atom-workspace": "token-navigation:previousToken"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "token-navigation",
+          "submenu": [
+            {
+              "label": "Next token",
+              "command": "token-navigation:nextToken"
+            },
+            {
+              "label": "Previous token",
+              "atom-workspace": "token-navigation:previousToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

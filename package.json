@@ -1,7 +1,7 @@
 {
   "name": "token-navigation",
   "main": "./lib/token-navigation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Grammatically meaningful code navigation",
   "keywords": [
     "code-navigation",

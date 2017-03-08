@@ -5,7 +5,8 @@
   "description": "Grammatically meaningful code navigation",
   "keywords": [
     "code-navigation",
-    "babylon"
+    "babylon",
+    "javascript"
   ],
   "repository": "https://github.com/germtb/token-navigation",
   "license": "MIT",

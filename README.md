@@ -3,7 +3,7 @@
 Grammatically meaningful code navigation. Jump from token to token, ignoring those which you consider less important in settings.
 
 ## How it looks
-![](https://github.com/germtb/gifs/blob/master/token-navigation.gif)
+![](https://raw.githubusercontent.com/germtb/gifs/master/token-navigation.gif)
 
 ## Note
 

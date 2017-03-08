@@ -2,9 +2,9 @@
   "name": "token-navigation",
   "main": "./lib/token-navigation",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
-  "repository": "https://github.com/atom/token-navigation",
+  "description": "Grammatically meaningful code navigation",
+  "keywords": [ "code-navigation", "babylon" ],
+  "repository": "https://github.com/germtb/token-navigation",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

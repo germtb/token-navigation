@@ -1,5 +1,20 @@
 # token-navigation package
 
-A short description of your package.
+Grammatically meaningful code navigation. Jump from token to token, ignoring those which you consider less important in settings.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## How it looks
+![](https://github.com/germtb/gifs/blob/master/token-navigation.gif)
+
+## Note
+
+This package comes without keymaps, because it is really hard to adapt to everyone's workflow. To add keymaps go to your `keymap.json` (or `keymap.cson`, which in OS X are located in `~/.atom`) and add the key combination of your choice. I use vim-mode so for me this is what works best:
+
+```
+{
+	"atom-text-editor": {
+		"alt-l": "token-navigation:nextToken",
+		"alt-h": "token-navigation:previousToken"
+	}
+}
+
+```

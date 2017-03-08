@@ -1,0 +1,6 @@
+{
+	"atom-text-editor": {
+		"alt-l": "token-navigation:nextToken",
+		"alt-h": "token-navigation:previousToken"
+	}
+}

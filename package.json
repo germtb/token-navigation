@@ -1,19 +1,29 @@
 {
-  "name": "token-navigation",
-  "main": "./lib/token-navigation",
-  "version": "0.1.4",
-  "description": "Grammatically meaningful code navigation",
-  "keywords": [
-    "code-navigation",
-    "babylon",
-    "javascript"
-  ],
-  "repository": "https://github.com/germtb/token-navigation",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "babylon": "^6.16.1"
-  }
+	"name": "token-navigation",
+	"main": "./lib/token-navigation",
+	"version": "0.1.4",
+	"description": "Grammatically meaningful code navigation",
+	"scripts": {
+		"test": "mocha --reporter progress --compilers js:babel-core/register --recursive 'lib/**/*.test.js'"
+	},
+	"keywords": [
+		"code-navigation",
+		"babylon",
+		"javascript"
+	],
+	"repository": "https://github.com/germtb/token-navigation",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"babylon": "^6.16.1"
+	},
+	"devDependencies": {
+		"atom": "~1.0.0",
+		"babel-core": "~6.23.1",
+		"babel-preset-es2015": "~6.22.0",
+		"chai": "~3.5.0",
+		"mocha": "~3.2.0"
+	}
 }

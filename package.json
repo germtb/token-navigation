@@ -1,7 +1,7 @@
 {
   "name": "token-navigation",
   "main": "./lib/token-navigation",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Grammatically meaningful code navigation",
   "scripts": {
     "test": "mocha --reporter progress --compilers js:babel-core/register --recursive 'lib/**/*.test.js'"

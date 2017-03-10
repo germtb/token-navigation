@@ -1,11 +1,11 @@
 {
   "name": "token-navigation",
   "main": "./lib/token-navigation",
-  "version": "0.3.3",
-	"activationEvents": [
-		"token-navigation:nextToken",
-		"token-navigation:previousToken"
-	],
+  "version": "1.0.0",
+  "activationEvents": [
+    "token-navigation:nextToken",
+    "token-navigation:previousToken"
+  ],
   "description": "Grammatically meaningful code navigation",
   "scripts": {
     "test": "mocha --reporter progress --compilers js:babel-core/register --recursive 'lib/**/*.test.js'"

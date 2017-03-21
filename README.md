@@ -4,3 +4,6 @@ Grammatically meaningful code navigation in javascript. Jump from token to token
 
 ## How it looks
 ![](https://raw.githubusercontent.com/germtb/gifs/master/token-navigation.gif)
+
+## How it works
+When using the shortcut for next or previous token, the whole file will be parsed by babel and then the cursor will travel and select to the next or previous token. This could appear to be a slow process, but it actually is not. The only issue I found is that while developing we often have code that does not conform a valid abstract syntax tree. For those cases I have provided a regex based parser that, despite silly, is good enough until we can use babel for tokenizing again.

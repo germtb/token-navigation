@@ -14,7 +14,8 @@
   "keywords": [
     "code-navigation",
     "babylon",
-    "javascript"
+    "javascript",
+		"fuzzy"
   ],
   "repository": "https://github.com/germtb/token-navigation",
   "license": "MIT",

@@ -3,5 +3,10 @@
 		"alt-l": "token-navigation:nextToken",
 		"alt-h": "token-navigation:previousToken",
 		"alt-f": "token-navigation:fuzzyToken"
+	},
+	".fuzzy-view": {
+		"enter": "token-navigation:nextFuzzyToken",
+		"shift-enter": "token-navigation:previousFuzzyToken",
+		"alt-enter": "token-navigation:allFuzzyToken"
 	}
 }

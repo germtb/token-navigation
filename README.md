@@ -3,7 +3,10 @@
 Grammatically meaningful code navigation in javascript. Jump from token to token, ignoring those which you consider less important in settings.
 
 ## Fuzzy token navigation
-Jump tokens with fuzzy searching with `alt` + `f`. Travel your code at the speed of light no matter how slow your memory is.
+Jump tokens with fuzzy searching with `alt` + `f`. Travel your code at the speed of light no matter how slow your memory is. Once there are results:
+- `enter` to select next one
+- `shift` + `enter` to select previous one
+- `alt` + `enter` to select all
 
 ![](https://raw.githubusercontent.com/germtb/gifs/master/fuzzy-token-navigation.gif)
 

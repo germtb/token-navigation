@@ -12,10 +12,9 @@
     "test": "mocha --reporter progress --compilers js:babel-core/register --recursive 'lib/**/*.test.js'"
   },
   "keywords": [
-    "code-navigation",
-    "babylon",
-    "javascript",
-    "fuzzy"
+    "fuzzy",
+    "search",
+    "code-navigation"
   ],
   "repository": "https://github.com/germtb/token-navigation",
   "license": "MIT",

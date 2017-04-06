@@ -7,7 +7,7 @@
     "token-navigation:previousToken",
     "token-navigation:fuzzyToken"
   ],
-  "description": "Grammatically meaningful code navigation",
+  "description": "Grammatically fuzzy code navigation",
   "scripts": {
     "test": "mocha --reporter progress --compilers js:babel-core/register --recursive 'lib/**/*.test.js'"
   },

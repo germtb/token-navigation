@@ -5,8 +5,8 @@
 		"alt-f": "token-navigation:fuzzyToken"
 	},
 	".fuzzy-view": {
-		"enter": "token-navigation:nextFuzzyToken",
-		"shift-enter": "token-navigation:previousFuzzyToken",
-		"alt-enter": "token-navigation:allFuzzyToken"
+		"enter": "token-navigation:next",
+		"shift-enter": "token-navigation:previous",
+		"alt-enter": "token-navigation:all"
 	}
 }

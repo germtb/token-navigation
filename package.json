@@ -1,7 +1,7 @@
 {
   "name": "token-navigation",
   "main": "./lib/token-navigation",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "activationEvents": [
     "token-navigation:nextToken",
     "token-navigation:previousToken",

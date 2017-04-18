@@ -5,7 +5,7 @@
   "activationEvents": [
     "token-navigation:nextToken",
     "token-navigation:previousToken",
-    "token-navigation:fuzzyToken"
+    "token-navigation:fuzzySearch"
   ],
   "description": "Grammatically fuzzy code navigation",
   "scripts": {

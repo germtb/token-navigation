@@ -8,6 +8,18 @@
       {
         "label": "Previous token",
         "atom-workspace": "token-navigation:previousToken"
+      },
+      {
+        "label": "Next fuzzy-searched token",
+        "atom-workspace": "token-navigation:next"
+      },
+      {
+        "label": "Previous fuzzy-searched token",
+        "atom-workspace": "token-navigation:preious"
+      },
+      {
+        "label": "Select all fuzzy-searched tokens",
+        "atom-workspace": "token-navigation:all"
       }
     ]
   },
@@ -25,6 +37,18 @@
             {
               "label": "Previous token",
               "atom-workspace": "token-navigation:previousToken"
+            },
+            {
+              "label": "Next fuzzy-searched token",
+              "atom-workspace": "token-navigation:next"
+            },
+            {
+              "label": "Previous fuzzy-searched token",
+              "atom-workspace": "token-navigation:preious"
+            },
+            {
+              "label": "Select all fuzzy-searched tokens",
+              "atom-workspace": "token-navigation:all"
             }
           ]
         }

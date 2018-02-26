@@ -965,6 +965,25 @@ extend(Component.prototype, {
   */
 	render: function render() {}
 });
+
+/** Render JSX into a `parent` Element.
+ *	@param {VNode} vnode		A (JSX) VNode to render
+ *	@param {Element} parent		DOM element to render into
+ *	@param {Element} [merge]	Attempt to re-use an existing DOM tree rooted at `merge`
+ *	@public
+ *
+ *	@example
+ *	// render a div into <body>:
+ *	render(<div id="hello">hello!</div>, document.body);
+ *
+ *	@example
+ *	// render a "Thing" component into #foo:
+ *	const Thing = ({ name }) => <span>{ name }</span>;
+ *	render(<Thing name="one" />, document.querySelector('#foo'));
+ */
+function render(vnode, parent, merge) {
+  return diff(merge, vnode, {}, false, parent, false);
+}
 //# sourceMappingURL=preact.esm.js.map
 
 /** Detect free variable `global` from Node.js. */
@@ -3381,8 +3400,8 @@ var FuzzyView = connect(function (state) {
 	};
 })(FuzzyTokenWrapper);
 
-var FuzzyToken = function (_React$PureComponent) {
-	inherits$1(FuzzyToken, _React$PureComponent);
+var FuzzyToken = function (_Component) {
+	inherits$1(FuzzyToken, _Component);
 
 	function FuzzyToken(props) {
 		classCallCheck$1(this, FuzzyToken);
@@ -3600,7 +3619,7 @@ var FuzzyToken = function (_React$PureComponent) {
 		}
 	}]);
 	return FuzzyToken;
-}(React.PureComponent);
+}(Component);
 
 var EnhancedFuzzyToken = connect(function (state) {
 	return {
@@ -3763,7 +3782,7 @@ module.exports = {
 
 		this.store = createStore(reducers);
 		var reactRoot = document.createElement('div');
-		ReactDOM.render(h(
+		render(h(
 			Provider,
 			{ store: this.store },
 			h(FuzzyView, null)
